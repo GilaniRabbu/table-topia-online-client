@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import Hero from '../components/HomePage/Hero';
 import Categories from '../components/HomePage/Categories';
 import FeaturedRestaurants from '../components/HomePage/FeaturedRestaurants';
+import Testimonials from '../components/HomePage/Testimonials';
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
         <Hero />
         <Categories />
         <FeaturedRestaurants />
+        <Testimonials />
       </main>
       <Footer />
     </div>
